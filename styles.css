@@ -209,7 +209,14 @@ Slider
 }
 .slide h1 {
   font-size: 5rem;
+  color: var(--clr-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
+
 .person-img {
   border-radius: 50%;
   width: 6rem;
