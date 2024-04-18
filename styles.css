@@ -223,6 +223,13 @@ Slider
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.slide:nth-child(2) h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* 다른 내용 위에 텍스트가 표시되도록 설정 */
+}
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img-2.jpeg") center/cover no-repeat;
